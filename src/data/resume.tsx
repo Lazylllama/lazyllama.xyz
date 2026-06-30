@@ -1,5 +1,5 @@
-import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { Icons } from "@/components/icons";
 
 export const DATA = {
   name: "Simon Klövdahl",
@@ -10,26 +10,24 @@ export const DATA = {
   description:
     "Student Front-end Developer. Coding as a hobby at @LCHoldings, where I work on various projects.",
   summary:
-    "Still going through school, passion for coding and design. I have been working on various projects for the past year, and I am always looking for new challenges. Currently working on Beacon, a community/player management tool for server on the GTAV multiplayer modification [FiveM](https://fivem.net/). I use bun btw",
-  avatarUrl: "/media/LazyllamaV2-Logo.png",
+    "Still going through school, passion for coding and design. I have been working on various projects for the past year, and I am always looking for new things to take on. I use bun btw",
+  avatarUrl: "/media/Headshot26.jpg",
   skills: [
     "React",
     "Next.js",
     "Typescript",
-    "Node.js",
     "Photoshop",
-    "Vue",
-    "Nuxt",
+    "Unity",
+    "CSharp",
     "TailwindCSS",
     "Lua",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "me@lazyllama.xyz",
-    tel: "+46736570708",
+    tel: "",
     social: {
       GitHub: {
         name: "GitHub",
@@ -84,45 +82,44 @@ export const DATA = {
         "Working on various projects as frontend developer, including Beacon, a community/player management tool for servers on the GTAV multiplayer modification FiveM. You can see all projects on the LCHoldings Github.",
     },
   ],
-  educationEnabled: false,
+  educationEnabled: true,
   education: [
     {
-      school: "N/A",
-      href: "https://buildspace.so",
-      degree: "N/A",
-      logoUrl: "/n-a.jpg",
-      start: "2045",
-      end: "2054",
+      school: "LBS Kreativa Gymnasiet",
+      href: "https://lbs.se",
+      degree: "Teknikprogrammet - Spelutveckling",
+      logoUrl: "/lbs.png",
+      start: "2025",
+      end: "2028",
     },
   ],
   projects: [
     {
-      title: "Beacon - FiveM Server Management",
-      href: "",
-      dates: "Jan 2025 - Present",
+      title: "Discover Portal",
+      href: "https://discoverportal.se",
+      dates: "Mar-Jun 2026",
       active: true,
       description:
-        "Beacon is a community/player management tool for servers on the GTAV multiplayer modification [FiveM](https://fivem.net). The website is built with [JStack](https://jstack.app), TailwindCSS and Shadcn UI. The project is currently in development.",
+        "FiveM server management tool for Discover RP. Built with Next.js & coss ui for frontend, hono & bun for backend and FiveM script in Typescript. ",
       technologies: [
         "Next.js",
         "Typescript",
         "Hono",
         "TailwindCSS",
-        "Shadcn UI",
-        "JStack",
+        "coss ui",
         "PostgreSQL",
         "Vercel"
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://automatic.chat",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://discoverportal.se",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
-      image: "",
+      image: "/screenshots/discover.png",
       video: "",
-      noImage: true
+      noImage: false
     },
     {
       title: "LCDevelopment Portfolio",
@@ -157,10 +154,10 @@ export const DATA = {
     {
       title: "Lindemark Fastigheter",
       href: "https://lindemark.nu",
-      dates: "Sept 2024 - Present",
+      dates: "Sept 2024",
       active: true,
       description:
-        "At LCDevelopment, we built a website for Lindemark Fastigheter AB, a real estate company in Sweden. The website is built with Nuxt.js, TailwindCSS and [Sanity CMS](https://sanity.io). We actively maintain it and plan to remake it in React.",
+        "At LCDevelopment, we built a website for Lindemark Fastigheter AB, a real estate company in Sweden. The website is built with Nuxt.js, TailwindCSS and [Sanity CMS](https://sanity.io).",
       technologies: [
         "Nuxt",
         "TypeScript",
